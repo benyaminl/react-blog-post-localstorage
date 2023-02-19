@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <div id="post-create">
+        <input type="text" name="judul" id="judul" placeholder="judul"> <br>
+        <input type="datetime-local" name="tanggal" id="tanggal"> <br>
+        <textarea name="post" id="post-createInput" cols="30" rows="10"></textarea>
+        <button id="btnTambah">Tambah</button>
+    </div>
+
+    <div id="blog">Loading....</div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>  
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="asset/js/post.js"></script>
+    <script src="asset/js/blog.js"></script>
+    <script src="asset/js/main.js" type="module"></script>
+</body>
+</html>
